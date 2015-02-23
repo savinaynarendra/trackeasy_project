@@ -4,46 +4,21 @@
 	<div class="row">
 		
 		<div class="alert alert-danger" role="alert" style="display: none;" id="error"><span id="addError"></span> cannot be empty</div>
-		<div class="row">
-			<div class="col-md-push-3 col-md-3">
-				<h2>Track Easy</h2>
-			</div>
-			<!-- <div class="dropdown">
-				<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-					Dropdown
-					<span class="caret"></span>
-				</button>
-				<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
-				</ul>
-			</div> -->
-			<div class="pull-right">
-				<span>Services</span>
-				<div class="dropdown">
-					<button id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false" class="btn btn-default">
-						All
-						<span class="caret"></span>
-					</button>
-
-					<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-						<li><a href="#">Rent</a></li>
-						<li><a href="#">Buy</a></li>
-						<li><a href="#">PG</a></li>
-						<li><a href="#">Service Apartments</a></li>
-						<li><a href="#">Rental Agreement</a></li>
-						<li><a href="#">Home Loans</a></li>
-						<li><a href="#">Rent or Sell</a></li>
-						<li><a href="#">Agents</a></li>
-						<!-- <li class="divider"></li>
-						<li><a href="#">Separated link</a></li> -->
-					</ul>
-				</div>
-			</div>
-
+		<div class="text-center">
+			<h2>Track Easy</h2>
 		</div>
+		<div class="dropdown">
+			<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+				Dropdown
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+			</ul>
+	</div>
 
 
 		<!-- <div class="pull-right">
@@ -70,7 +45,8 @@
 		</div> -->
 	</div>
 	<br>
-	<!-- <div class="row">
+	<br>
+	<div class="row">
 		<div class="panel panel-default">
 			<div class="panel-body">
 
@@ -88,9 +64,11 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-md-push-1">
-						
+						<!-- div class="col-md-3">
+							<span>Select Platform</span>
+						</div> -->
 						<div class="btn-group" role="group" aria-label="...">
-							
+							<!-- <button type="button" class="btn btn-default platformsBtnGroup" id="all">All</button> -->
 							<button type="button" class="btn btn-default platformsBtnGroup" id="desktop">Desktop</button>
 							<button type="button" class="btn btn-default platformsBtnGroup" id="mobile">Mobile Web</button>
 						</div>
@@ -111,70 +89,18 @@
 					<div class="col-md-push-10 col-md-2" style="margin-left: 50px;">
 						<button class="btn btn-primary glyphicon glyphicon-play-circle" id="show-query"> Run</button>
 					</div>
+					<!-- <div class="col-md-2 pull-right" style="margin-right: 56px;">
+						
+						<button class="btn btn-danger reset">Reset Filters</button>
+					</div> -->
 				</div>
 
 			</div>
 		</div>
 		<div class="col-md-3 col-md-offset-1 pull-right">
 		</div>
-	</div> -->
-	<div class="text-center col-md-8">
-		<button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal">Add</button>
-
-	</div>
-
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					<h4 class="modal-title" id="myModalLabel">Modal title</h4>
-				</div>
-				<div class="modal-body">
-					...
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					<button type="button" class="btn btn-primary">Save changes</button>
-				</div>
-			</div>
-		</div>
 	</div>
 	<br>
-
-	<div class="row" style="padding-top: 50px;">
-
-		<div class="col-md-8">
-			<div class="col-md-6">
-				<input class="form-control" placeholder="Event Category">
-			</div>
-			<div class="col-md-6">
-				<input class="form-control" placeholder="Event Action">
-			</div>
-			<br>
-			<br>
-			<br>
-			<div class="col-md-6">
-				<input class="form-control" placeholder="Service">
-			</div>
-			<div class="col-md-6">
-				<input class="form-control" placeholder="Event Label">
-			</div>
-
-
-
-		</div>
-
-		<div class="col-md-4">
-			<input type="checkbox" style="margin-top: 40px;">&nbsp;&nbsp;&nbsp;
-			<button class="btn btn-primary">PA Confirm</button>
-
-		</div>
-		
-	</div>
-
-
-
 	<!-- <div class="row">
 		<div class="panel panel-default">
 			<div class="panel-heading">Apply Filters</div>
@@ -220,45 +146,45 @@
 				OCRF Conversion
 				<span id="channelConversion"></span>
 				<span class="glyphicon glyphicon-question-sign black-tooltip" style="font-size: 18px;" aria-hidden="true" data-toggle="tooltip" data-placement="right" data-html="true" title="<html>
-					<p>Definition</p>
-					<ul style='padding-left:15px;text-align:left;'>
-						<li>For Desktop:  open_crf </li>
-						<li>For Mobile:   open_crf + calls</li>
-					</ul>
-					</html>" id="questionMark"></span>
-				</h2>
-				<br>
-				<div class="col-md-6">
-					<div id="chartConversion"></div>
-				</div>
-				<div class="col-md-5">
-					<div id="donutChartConversion" class="donutChartConversion"></div>
-				</div>
-				<div class="col-md-1" style="margin-top: 120px;">
-					<button class="btn btn-danger resetConversion">All Channels</button>
-				</div>
+						<p>Definition</p>
+						<ul style='padding-left:15px;text-align:left;'>
+							<li>For Desktop:  open_crf </li>
+							<li>For Mobile:   open_crf + calls</li>
+						</ul>
+						</html>" id="questionMark"></span>
+			</h2>
+			<br>
+			<div class="col-md-6">
+				<div id="chartConversion"></div>
 			</div>
-			<div class="row">
-				<h2>
-					Total OCRF
-					<span id="channelContactRequests"></span>
-				</h2>
-				<br>
-				<div class="col-md-6">
-					<div id="chartContactRequests"></div>
-				</div>
-				<div class="col-md-5">
-					<div id="donutChartContactRequests" class="donutChartContactRequests"></div>
-				</div>
-				<div class="col-md-1" style="margin-top: 120px;">
-					<button class="btn btn-danger resetContactRequests">All Channels</button>
-				</div>
+			<div class="col-md-5">
+				<div id="donutChartConversion" class="donutChartConversion"></div>
 			</div>
-			<div class="row">
-				<h2>
-					User Engagement
-					<span id="channelUserEngagement"></span>
-					<span class="glyphicon glyphicon-question-sign black-tooltip" style="font-size: 18px;" aria-hidden="true" data-toggle="tooltip" data-placement="right" data-html="true" title="<html>
+			<div class="col-md-1" style="margin-top: 120px;">
+				<button class="btn btn-danger resetConversion">All Channels</button>
+			</div>
+		</div>
+		<div class="row">
+			<h2>
+				Total OCRF
+				<span id="channelContactRequests"></span>
+			</h2>
+			<br>
+			<div class="col-md-6">
+				<div id="chartContactRequests"></div>
+			</div>
+			<div class="col-md-5">
+				<div id="donutChartContactRequests" class="donutChartContactRequests"></div>
+			</div>
+			<div class="col-md-1" style="margin-top: 120px;">
+				<button class="btn btn-danger resetContactRequests">All Channels</button>
+			</div>
+		</div>
+		<div class="row">
+			<h2>
+				User Engagement
+				<span id="channelUserEngagement"></span>
+				<span class="glyphicon glyphicon-question-sign black-tooltip" style="font-size: 18px;" aria-hidden="true" data-toggle="tooltip" data-placement="right" data-html="true" title="<html>
 						<p>Legend</p>
 						<ul style='padding-left:15px;text-align:left;'>
 							<li>Level 0 : No Interaction</li>
@@ -267,21 +193,21 @@
 							<li>Level 3 : Forms</li>
 						</ul>
 						</html>" id="ocrf-conversion"></span>
-
-					</h2>
-					<br>
-					<div class="col-md-6">
-						<div id="chartUserEngagement"></div>
-					</div>
-					<div class="col-md-5">
-						<div id="donutChartUserEngagement" class="donutChartUserEngagement"></div>
-					</div>
-					<div class="col-md-1" style="margin-top: 120px;">
-						<button class="btn btn-danger resetUserEngagement">All Channels</button>
-					</div>
-				</div>
-
+				
+			</h2>
+			<br>
+			<div class="col-md-6">
+				<div id="chartUserEngagement"></div>
 			</div>
+			<div class="col-md-5">
+				<div id="donutChartUserEngagement" class="donutChartUserEngagement"></div>
+			</div>
+			<div class="col-md-1" style="margin-top: 120px;">
+				<button class="btn btn-danger resetUserEngagement">All Channels</button>
+			</div>
+		</div>
+		
+	</div>
 
 	<!-- <div class="row">
 		<h2>Registered Users</h2>

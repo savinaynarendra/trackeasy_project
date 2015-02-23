@@ -31,8 +31,8 @@ def test(request):
 	print var_dict['name']
 # return HttpResponse(json.dumps(var_dict), content_type="application/json")
 	# return render_to_response("Tracking/index.html", json.dumps(var_dict))
-	return HttpResponse(json.dumps(var_dict['name']), content_type="application/json")
-	# return render_to_response('Tracking/index.html', {'foo':'bar'})
+	# return HttpResponse(json.dumps(var_dict['name']), content_type="application/json")
+	return render_to_response('Tracking/index.html', {'foo':'bar'})
 
 
 

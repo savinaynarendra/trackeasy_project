@@ -1,4 +1,6 @@
 $(function() {
+
+    $('#ec').text("jghkjahd")
     
     $('#questionMark').tooltip();
     $('#ocrf-conversion').tooltip();
